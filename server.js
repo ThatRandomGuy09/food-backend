@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://foodd-orderingg-appp.vercel.app/",
+    origin: "https://foodd-orderingg-appp.vercel.app",
     credentials: true,
   })
 );
